@@ -2,9 +2,6 @@
 
     // Based on https://github.com/drewkerr/scriptable/blob/main/Sticky%20widget.js
     const createWidget = (note) => {
-        let aa = new Alert();
-        aa.addTextField("AAAA", "YEEEE");
-        aa.presentAlert();
         let widget = new ListWidget();
         widget.setPadding(16, 16, 16, 8);
         let dark = Device.isUsingDarkAppearance();
