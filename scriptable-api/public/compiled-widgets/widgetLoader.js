@@ -11,7 +11,7 @@ const RequestWithTimeout = (url, timeoutSeconds = 5) => {
 const ROOT_MODULE_PATH = "widget-loader";
 const widgetModuleDownloadConfig = {
     moduleName: "stickyWidgetModule",
-    rootUrl: "https://raw.githubusercontent.com/Kamholtz/scriptable-ts-boilerplate/main/scriptable-api/public/compiled-widgets/",
+    rootUrl: "https://github.com/jasperhartong/scriptable-ts-boilerplate/blob/main/scriptable-api/public/compiled-widgets/widget-modules/",
     defaultWidgetParameter: "",
     downloadQueryString: "__downloadQueryString__",
 };
