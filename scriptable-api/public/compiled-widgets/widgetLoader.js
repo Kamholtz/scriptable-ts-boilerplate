@@ -10,9 +10,9 @@ const RequestWithTimeout = (url, timeoutSeconds = 5) => {
 
 const ROOT_MODULE_PATH = "widget-loader";
 const widgetModuleDownloadConfig = {
-    moduleName: "covid19WidgetModule",
-    rootUrl: "https://github.com/Kamholtz/scriptable-ts-boilerplate/tree/main/scriptable-api/public/compiled-widgets/widget-modules/",
-    defaultWidgetParameter: "Israel",
+    moduleName: "stickyWidgetModule",
+    rootUrl: "https://raw.githubusercontent.com/Kamholtz/scriptable-ts-boilerplate/main/scriptable-api/public/compiled-widgets/",
+    defaultWidgetParameter: "",
     downloadQueryString: "__downloadQueryString__",
 };
 async function getOrCreateWidgetModule({ moduleName, rootUrl, downloadQueryString }, forceDownload = false) {

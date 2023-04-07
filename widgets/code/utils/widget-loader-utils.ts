@@ -5,9 +5,9 @@ const ROOT_MODULE_PATH = "widget-loader";
 
 
 export const widgetModuleDownloadConfig: IWidgetModuleDownloadConfig = {
-    moduleName: "__moduleName__",
-    rootUrl: "__rootUrl__",
-    defaultWidgetParameter: "__defaultWidgetParameter__",
+    moduleName: "stickyWidgetModule",
+    rootUrl: "https://raw.githubusercontent.com/Kamholtz/scriptable-ts-boilerplate/main/scriptable-api/public/compiled-widgets/",
+    defaultWidgetParameter: "",
     downloadQueryString: "__downloadQueryString__",
 }
 
